@@ -1,0 +1,41 @@
+# Ignore Python cache files everywhere
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore logs
+*.log
+*.log.*
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore compiled translation files
+*.mo
+*.pot
+
+# Ignore Odoo generated files
+*.zip
+*.xlsx
+*.xls
+*.csv
+*.pdf
+
+# Ignore local configuration
+odoo.conf
+config/*.conf
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore backup and temp files
+*.bak
+*.tmp
+~$*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
